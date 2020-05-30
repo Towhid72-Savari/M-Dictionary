@@ -6,6 +6,7 @@ data_keys = data.keys()
 
 
 def translate(word_param):
+    """A function that return the specific word meaning"""
     if word_param in data:
         return data[word_param]
     elif word_param.title() in data_keys:
